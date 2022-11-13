@@ -1,6 +1,6 @@
 import sqlite3
 
-conexion=sqlite3.connect("bdejemplopy.db")
+conexion=sqlite3.connect("bdEjemploPy.db")
 try:
     conexion.execute("""create table countries (
                               Id integer primary key autoincrement,
